@@ -1,0 +1,280 @@
+.page1{
+    height:100vh;
+    background-image: url('../../assets/Galaxy.jpg');
+    background-size: 100% 100%;
+    background-color: #121F38;
+  
+    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+  
+}
+@media (max-height:814px){
+    .page1{
+      height:815px;
+    }
+}
+@media (max-width: 412px){
+    .page1{
+      height: 1050px !important;
+    }
+}
+
+@media (max-width:770px){
+    .page1{
+      height:900px;
+    }
+    #middle-info{
+      flex-direction: column !important;
+    }
+    #intro {
+      display:flex;
+      justify-content: center;
+      flex-direction: column !important;
+      align-items: center;
+      
+    }
+    #intro h1{
+      text-align: center;
+    }
+    #intro button{
+      margin-bottom: 20px !important;
+    }
+    #bottom-info{
+      display:flex;
+      margin-right:0 !important;
+      width:100% !important;
+      justify-content: center;
+      
+    }
+    #fade1{
+      margin-left:0 !important;
+    }
+}
+
+@media (max-width:820px){
+    #middle-info img{
+      height:300px !important;
+      width:300px !important;
+    }
+    #intro h1{
+      font-size:60px !important;
+    }
+    #Jonas{
+      height:auto !important;
+    }
+    #Jonas span{
+      font-size:65px !important;
+    }
+    #bottom-info{
+      margin-top:25px !important;
+    }
+}
+
+@media (max-width:1040px){
+    #middle-info img{
+      height:300px !important;
+      width:300px !important;
+    }
+    #Jonas{
+      height:auto !important;
+    }
+    #bottom-info{
+      margin-top:20px !important;
+    }
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size:19px;
+}
+
+.dropdown-content {
+  
+  position: absolute;
+  background-color: #121F38;
+  border: 1px solid #BCCCE6;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  right:1px;
+}
+.dropdown-content a{
+  text-decoration: 0;
+  color:#BCCCE6;
+}
+.dropdown-content a:hover{
+  background-color:#6579AB;
+}
+
+.dropdown svg{
+  height:30px;
+  width:auto;
+  fill:#BCCCE6;
+  stroke:#BCCCE6;
+
+}
+/*
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+#top-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: #121F38;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-bottom: 2.5px solid #7D99C4;
+}
+
+#top-info h3{
+  margin:0;
+  height: 100%;
+}
+
+
+
+#Sections{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#Sections h3{
+  margin-left: 20px;
+}
+
+#Sections a{
+  text-decoration: 0;
+  color:#BCCCE6;
+}
+
+#middle-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:5%;
+  
+  padding-left: 8%;
+  padding-right: 8%;
+
+  
+}
+
+#middle-info img{
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  
+}
+
+
+#intro h1{
+  margin:0;
+  font-size: 65px;
+  font-family: Arial Black;
+}
+
+#intro span{
+  font-size: 105px;
+  color: #E6BCE1;
+}
+
+#Jonas{
+  height:120px
+}
+
+#intro button{
+  margin-top: 25px;
+  font-family: Arial Black;
+  background-color: rgba(18, 31, 56, .75);
+  color: #BCCCE6;
+  font-size: 20px;
+  border: 1.5px solid #BCCCE6;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+}
+
+#intro button:hover{
+  background-color: rgba(18, 31, 56, 1);
+  cursor: pointer;
+}
+
+#bottom-info{
+  float: right;
+  margin-top: 5%;
+  margin-right: 8%;
+  height: 50px;
+  width:50%;
+  
+}
+
+
+#Social{
+  display: flex;
+  float: right;
+  height:100%;
+}
+
+#Social path{
+  fill: #BCCCE6;
+}
+
+
+#Social svg:hover path{
+  fill: #6579AB;
+}
+
+
+.logo{
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  margin-left: 30px;
+}
+
+
+.logo:hover{
+  cursor: pointer;
+}
+
+#fade1{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+#fade2{
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#fade3{
+  animation: fadeInAnimation ease 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#fade4{
+  animation: fadeInAnimation ease 9s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}

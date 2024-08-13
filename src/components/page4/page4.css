@@ -1,0 +1,143 @@
+/* Contact and About Section*/
+#contact-info{
+  
+    margin-bottom: 65px;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+    flex-direction: column;
+    width: 100%;
+    height:200px;
+    
+    position:relative;
+    /*background-color: #1E345F;*/
+    
+    
+  }
+  
+  #contact-info fieldset{
+    position: absolute;
+    
+    border:0;
+    margin:0;
+    padding:0;
+    height:250px;
+    width:100%;
+    border-top: 2.5px solid #7D99C4; 
+    
+  }
+  
+  #contact-info legend{
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 45px;
+      padding-left:10px;
+      padding-right:10px;
+    
+  }
+  #contact-info a{
+    z-index:1;
+  }
+  
+  
+  
+  
+  #top-contact{
+    width:100%;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+  
+  }
+  
+  #move-info{
+    margin-left:50px;
+  }
+  
+  #contact-info h3{
+    
+    margin:0;
+    
+    width:fit-content;
+    height:fit-content;
+  
+  }
+  #contact-info svg{ 
+    height: 27px;
+    width: 20px;
+    margin-right:15px;
+  }
+  
+  #contact-info path{
+    fill:#BCCCE6;
+  }
+  
+  .logo-contact{
+    display: flex;
+    align-items: center;
+    color:#BCCCE6;
+    text-decoration: none;
+  }
+  
+  .logo-contact:hover{
+    cursor: pointer;
+  }
+  
+  #bottom-contact rect{
+    fill:rgba(0,0,0,0);
+    stroke:#BCCCE6;
+  }
+  
+  #bottom-contact path {
+    fill:rgba(0,0,0,0);
+    stroke:#BCCCE6;
+  }
+  
+  fieldset:nth-of-type(2){ transform: rotate(180deg); }
+  fieldset:nth-of-type(2)>legend{ transform: rotate(180deg); }
+  
+  
+  #Social-Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+  }
+  
+  #Social-Bottom path{
+    fill: #BCCCE6;
+  }
+  
+  
+  #Social-Bottom svg:hover path{
+    fill: #6579AB;
+  }
+  
+  .logo-bottom{
+    display:flex;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  
+  .logo-bottom:hover{
+    cursor: pointer;
+  }
+  
+  .logo-bottom svg{
+    margin:0 !important;
+  }
+
+  @media (max-width: 412px){
+    #contact-info svg{
+        margin-right:0 !important;
+    }
+    #move-info{
+        margin-left: 0 !important;
+    }
+  }

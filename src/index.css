@@ -1,0 +1,13 @@
+body{
+    font-family: Arial black, Helvetica, sans-serif;
+    background-color: #121F38;
+    color: #BCCCE6;
+    margin:0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
