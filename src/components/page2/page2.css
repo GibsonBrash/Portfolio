@@ -112,7 +112,7 @@
     
   }
   
-  .card button{
+  .card .linkButton{
     position: absolute;
     bottom:20px;
     margin-left:3%;
@@ -129,10 +129,12 @@
   
     display:block;
     text-align: center;
+    line-height: 50px;
+    text-decoration: none;
   }
   
   
-  .card button:hover{
+  .card .linkButton:hover{
     background-color: #6579AB;
     border-color: #6579AB;
   

@@ -46,7 +46,7 @@ function page1({dropDownHandler, pageTop, dropDown, dropDownOpen}){
                     </h1>
                     <button onClick={toEmail}>Contact Me</button>
                 </div>
-                <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t1.18169-9/21751711_2013109728926269_8973734063699582840_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=eD8u-Z4ZO2oQ7kNvgEtsUl8&_nc_ht=scontent-bos5-1.xx&oh=00_AYBhmg369cB4b8MF1-lVD0awC0M-0eytZOBSUH4bFI3rJw&oe=66BE3A18" alt="No Image Load"  />
+                <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/462804962_3936553699915186_3327874908931349608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hiKIFeqCSL8Q7kNvgFe_fW1&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=ABOQWqd_n4zhSpavba33a_W&oh=00_AYCvi3WSMhr0C8iAH-QxTS-AxHQMxwmBdIQOFlYxLM7zZA&oe=677DE6A7" alt="No Image Load"  />
                 </div>   
                 <div id="bottom-info">
                 <div id="Social">
