@@ -1,6 +1,8 @@
 import placeholder from '../../assets/placeholder.png';
 //import '../../App.css';
 import './page2.css';
+import Ratify from "../../assets/Ratify.jpg";
+import Anime from "../../assets/Anime.png";
 function page2({page2P, projectImg}){
     return(
         <>
@@ -12,7 +14,7 @@ function page2({page2P, projectImg}){
                     {projectImg ?
                     <>
                         <div className='image-card'>
-                            <img className="image-img" src={"https://www.wallpapertip.com/wmimgs/180-1806241_music-collage-album-covers-cover-art-art-hd.jpg"} alt="image no load"/>
+                            <img className="image-img" src={Ratify} alt="image no load"/>
                             <div className='image-text'>
                                 <div>Music Cataloging Website</div>
                                 <button className='image-button'>
@@ -33,7 +35,7 @@ function page2({page2P, projectImg}){
                             </div>
                         </div>
                         <div className='image-card'>
-                            <img className="image-img" src={placeholder} alt="image no load"/>
+                            <img className="image-img" src={Anime} alt="image no load"/>
                             <div className='image-text'>
                                 <div>Anime Trivia Website</div>
                                 <button className='image-button'>
@@ -57,7 +59,7 @@ function page2({page2P, projectImg}){
                     :
                     <>
                     <div className="card">
-                        <img src="https://www.wallpapertip.com/wmimgs/180-1806241_music-collage-album-covers-cover-art-art-hd.jpg" alt="image no load"/>
+                        <img src={Ratify} alt="image no load"/>
                         <div className="card-description">
                             A website for rating and reviewing music. It allows users to log in via their spotify account and, 
                             using spotify's vast music database, search for albums and artists they've listened to and rate and review that artists albums and songs.
@@ -80,7 +82,7 @@ function page2({page2P, projectImg}){
                         </a>
                     </div>
                     <div className="card">
-                        <img src={placeholder} alt="image no load"/> 
+                        <img src={Anime} alt="image no load"/> 
                         <div className="card-description">
                             A website that challenges users daily to guess an anime based on six sections from the show/movie. Each screenshot makes it progressivly more
                             obvious what the anime is. The anime is updated everyday so users can come back and try their hand at a new challenge. If the user misses a day they can go the archive page and

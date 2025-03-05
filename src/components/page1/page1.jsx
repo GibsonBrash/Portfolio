@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-
+import ProfilePic from '../../assets/ProfilePic.jpg';
 import './page1.css';
 
 function page1({dropDownHandler, pageTop, dropDown, dropDownOpen}){
@@ -46,7 +46,7 @@ function page1({dropDownHandler, pageTop, dropDown, dropDownOpen}){
                     </h1>
                     <button onClick={toEmail}>Contact Me</button>
                 </div>
-                <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/462804962_3936553699915186_3327874908931349608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hiKIFeqCSL8Q7kNvgFe_fW1&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=ABOQWqd_n4zhSpavba33a_W&oh=00_AYCvi3WSMhr0C8iAH-QxTS-AxHQMxwmBdIQOFlYxLM7zZA&oe=677DE6A7" alt="No Image Load"  />
+                <img src={ProfilePic} alt="No Image Load"  />
                 </div>   
                 <div id="bottom-info">
                 <div id="Social">
